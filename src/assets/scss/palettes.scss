@@ -1,0 +1,140 @@
+// $primary:(
+//   50: #ffe6e0,   // Lightest shade
+//   100: #ffb3a6,  // Lighter shade
+//   200: #ff7f5c,  // Light shade
+//   300: #ff4c29,  // Base shade
+//   400: #fe5000,  // Main color (fuego)
+//   500: #fe5000,  // Main color (fuego)
+//   600: #fe4c00,  // Darker shade
+//   700: #fe4500,  // Darker shade
+//   800: #fe3f00,  // Darker shade
+//   900: #fe2b00,  // Darkest shade
+//   A100: #ff6d3e, // Accent color
+//   A200: #ff5b2f, // Accent color
+//   A400: #ff3a0c, // Accent color
+//   A700: #ff2a00, // Accent color
+//   contrast: (
+//     50: #000000,
+//     100: #000000,
+//     200: #000000,
+//     300: #ffffff,
+//     400: #ffffff,
+//     500: #ffffff,
+//     600: #ffffff,
+//     700: #ffffff,
+//     800: #ffffff,
+//     900: #ffffff,
+//     A100: #ffffff,
+//     A200: #ffffff,
+//     A400: #ffffff,
+//     A700: #ffffff,
+//   ),
+// );
+
+$primary: (
+  50: #fff2e0,   // Lightest shade
+  100: #ffd1a6,  // Lighter shade
+  200: #ffb56c,  // Light shade
+  300: #ff9e40,  // Base shade
+  400: #ff8b1a,  // Main color (más amarillento)
+  500: #ff8b1a,  // Main color (más amarillento)
+  600: #ff8300,  // Darker shade
+  700: #ff7800,  // Darker shade
+  800: #ff6e00,  // Darker shade
+  900: #ff5b00,  // Darkest shade
+  A100: #ff9e40, // Accent color
+  A200: #ff8b1a, // Accent color
+  A400: #ff6e00, // Accent color
+  A700: #ff5b00, // Accent color
+  950: #003d6b,  // Azul fuego oscuro
+  960: #004d8e,  // Azul fuego base
+  970: #0056a0,  // Azul fuego medio
+  980: #0066cc,  // Azul fuego claro
+  990: #0072e5,
+  contrast: (
+    50: #000000,
+    100: #000000,
+    200: #000000,
+    300: #ffffff,
+    400: #ffffff,
+    500: #ffffff,
+    600: #ffffff,
+    700: #ffffff,
+    800: #ffffff,
+    900: #ffffff,
+    A100: #ffffff,
+    A200: #ffffff,
+    A400: #ffffff,
+    A700: #ffffff,
+    950: #ffffff,  // Contraste para azul fuego
+    960: #ffffff,  // Contraste para azul fuego
+    970: #ffffff,  // Contraste para azul fuego
+    980: #ffffff,  // Contraste para azul fuego
+    990: #ffffff,
+  ),
+);
+
+$accent:(
+  50: #fff9e6,   // Lightest shade
+  100: #fff3e6,  // Lighter shade
+  200: #ffebcc,  // Light shade
+  300: #ffdf99,  // Base shade
+  400: #ffcc66,  // Main color (pastel)
+  500: #ffcc66,  // Main color (pastel)
+  600: #ffb84d,  // Darker shade
+  700: #ffb33f,  // Darker shade
+  800: #ff9f00,  // Darker shade
+  900: #e68a00,  // Darkest shade
+  A100: #ffffff, // Accent color
+  A200: #fff9e6, // Accent color
+  A400: #ffd699, // Accent color
+  A700: #ffcc99, // Accent color
+  contrast: (
+    50: #000000,
+    100: #000000,
+    200: #000000,
+    300: #000000,
+    400: #000000,
+    500: #000000,
+    600: #000000,
+    700: #000000,
+    800: #000000,
+    900: #000000,
+    A100: #000000,
+    A200: #000000,
+    A400: #000000,
+    A700: #000000,
+)
+);
+
+$warn:(
+  50: #ffe6e0,
+  100: #ffb3a6,
+  200: #ff7f5c,
+  300: #ff4c29,
+  400: #fe5000,
+  500: #fe5000,
+  600: #fe4c00,
+  700: #fe4500,
+  800: #fe3f00,
+  900: #fe2b00,
+  A100: #ff6d3e,
+  A200: #ff5b2f,
+  A400: #ff3a0c,
+  A700: #ff2a00,
+  contrast: (
+    50: #333147,
+    100: #333147,
+    200: #333147,
+    300: #333147,
+    400: #333147,
+    500: #ffffff,
+    600: #333147,
+    700: #333147,
+    800: #333147,
+    900: #ffffff,
+    A100: #333147,
+    A200: #333147,
+    A300: #333147,
+)
+)

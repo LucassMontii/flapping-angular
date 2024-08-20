@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+
+@use '@angular/material' as mat;
+@import './assets/scss/variables.scss';
+@import './assets/scss/palettes.scss';
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+$nloader-primary: mat-palette($primary);
+$nloader-accent: mat-palette($accent);
+$nloader-warn: mat-palette($warn);
+
+$custom-typography: mat-typography-config(
+  $font-family: 'Arial',
+);
+@include angular-material-typography($custom-typography);
+
+$nloader-theme: mat.define-light-theme(
+  (
+    color: (
+      primary: $nloader-primary,
+      accent: $nloader-accent,
+      warn: $nloader-warn,
+    ),
+    typography: mat.define-typography-config(),
+    density: 0,
+  )
+);
+
+@include mat.all-component-themes($nloader-theme);
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  scrollbar-width: none;
+}
+

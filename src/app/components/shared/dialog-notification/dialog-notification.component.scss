@@ -1,0 +1,20 @@
+@import '../../../../styles.scss';
+
+.dialog-notification-container{
+    width: 500px;
+    height: 30vh;
+    background-color: var(--light-grey);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.logo-notification{
+    width: 100px;
+}
+
+p{
+    color: var(--accent-100)
+}

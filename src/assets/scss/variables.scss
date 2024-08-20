@@ -1,0 +1,22 @@
+@import "@angular/material/theming";
+@import "./palettes.scss";
+
+
+:host {
+  --primary-200: #{mat-color($primary, 200)};
+  --primary-300: #{mat-color($primary, 300)};
+  --primary-400: #{mat-color($primary, 400)};
+  --primary-500: #{mat-color($primary, 500)};
+  --primary-980: #{mat-color($primary, 980)};
+  --accent-100: #{mat-color($accent, 100)};
+  --accent-200: #{mat-color($accent, 200)};
+  --accent-300: #{mat-color($accent, 300)};
+  --accent-400: #{mat-color($accent, 400)};
+  --accent-500: #{mat-color($accent, 500)};
+  --accent-600: #{mat-color($accent, 600)};
+  --accent-700: #{mat-color($accent, 700)};
+  --accent-800: #{mat-color($accent, 800)};
+  --warn-500: #{mat-color($warn, 500)};
+  --grey: #{#666666};
+  --light-grey: #{#b3b3b3};
+}

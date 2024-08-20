@@ -1,0 +1,20 @@
+<div class="form-signup-container">
+    <h1 class="auth-title">FLAPPING</h1>
+    <form class="form" [formGroup]="form">
+      <mat-form-field appearance="outline">
+        <mat-label>nombre</mat-label>
+        <input matInput formControlName="userName"/>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>email</mat-label>
+        <input matInput formControlName="email"/>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>password</mat-label>
+        <input matInput formControlName="password"/>
+      </mat-form-field>
+    </form>
+    <div class="buttons-container">
+      <button mat-flat-button color="primary" (click)="signUp()"><span class="button-title">Crear Cuenta</span></button>
+    </div>
+  </div>

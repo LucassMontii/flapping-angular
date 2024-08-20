@@ -1,0 +1,28 @@
+<div class="form-login-container">
+  <h1 class="auth-title">FLAPPING</h1>
+  <form class="form" [formGroup]="form">
+    <mat-form-field appearance="outline">
+      <mat-label>email</mat-label>
+      <input matInput formControlName="email" />
+      <mat-error *ngIf="error?.error.message === 'User not found'"
+        >El email no existe o tiene un error</mat-error
+      >
+    </mat-form-field>
+    <mat-error></mat-error>
+    <mat-form-field appearance="outline">
+      <mat-label>password</mat-label>
+      <input matInput formControlName="password" />
+      <mat-error *ngIf="error?.error.message === 'Incorrect password'"
+        >Contraseña incorrecta</mat-error
+      >
+    </mat-form-field>
+  </form>
+  <div class="buttons-container">
+    <button mat-flat-button color="primary" (click)="login()">
+      <span class="button-title">Login</span>
+    </button>
+    <button mat-flat-button color="accent" (click)="signUp()">
+      <span class="button-title">Sign up</span>
+    </button>
+  </div>
+</div>
